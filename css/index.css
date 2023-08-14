@@ -1,0 +1,136 @@
+
+:root {
+    --primary-color: rgba(214, 46, 51, 0.6);
+    --secondary-color: #D62E33;
+    scroll-behavior: auto;
+}
+
+body {
+    color: #6c757d;
+    scroll-behavior: auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+
+
+
+/* navigation bar */
+
+nav {
+    color: white;
+    background-color: #111;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    transition: left 0.8s;
+    z-index: 979679769;
+}
+
+nav ul li {
+    padding: 20px 32px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+nav ul li:hover a,
+.closeBtn:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.closeBtn {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+}
+
+#navOpener {
+
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+
+
+
+
+/* home */
+#home {
+    height: 88vh;
+    background-image: linear-gradient(var(--primary-color), var(--primary-color)), url(../img/6551866_11557.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+.item {
+    padding: 50px;
+    border: 1px white solid;
+}
+
+/********/
+
+/* singers */
+.singer-info {
+    background-color: var(--primary-color);
+}
+
+.slider {
+    cursor: pointer;
+}
+
+.singer-card {
+    display: none;
+}
+
+/* ******** */
+
+/* timer */
+#count {
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-image: linear-gradient(var(--primary-color), var(--primary-color)), url(../img/Lovepik_com-649833465-Star\ wind\ enterprise\ recruitment\ join\ us\ word\ art.png);
+}
+
+/* ****** */
+
+/* contacts */
+.customIcon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.email {
+    color: var(--secondary-color);
+}
+
+.customIcon:hover,
+.formButton {
+    color: white;
+    background: var(--secondary-color);
+    cursor: pointer;
+    border-color: var(--secondary-color);
+}
+
+.counter {
+    color: var(--secondary-color);
+}
